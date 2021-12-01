@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "devdacticNetflix",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
