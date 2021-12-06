@@ -1,0 +1,42 @@
+* {
+  --ion-color-primary: #e40a15;
+  --ion-color-secondary: #262626;
+  --ion-color-white: white;
+}
+
+ion-input {
+  font-size: 14px;
+  --placeholder-color: white;
+}
+
+ion-item {
+  --ion-margin: 50px;
+}
+
+.title {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white);
+}
+
+#placeholders {
+  margin-bottom: 40px;
+}
+
+#buttons {
+  margin: auto;
+}
+
+#register {
+  width: 120px;
+}
+
+#cancel {
+  width: 75px;
+  color: #262626;
+}
