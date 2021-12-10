@@ -13,8 +13,13 @@ const routes: Routes = [
   {
     path: 'register-screen',
     loadChildren: () => import('./register-screen/register-screen.module').then( m => m.RegisterScreenPageModule)
+  },
+  {
+    path: 'home-screen',
+    loadChildren: () => import('./tab1/tab1.module').then( m => m.Tab1PageModule)
   }
 ];
+
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })

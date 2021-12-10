@@ -11,15 +11,15 @@
           </div>
           <div id="placeholders">
             <ion-item>
-              <ion-input name="email" type="email" placeholder="Email" ngModel required></ion-input>
+              <ion-input name="email" type="email" placeholder="Email" [(ngModel)]="email" ngModel required></ion-input>
             </ion-item>
             <ion-item class="ion-margin-top">
-              <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
+              <ion-input name="password" type="password" placeholder="Password" [(ngModel)]="password" ngModel required></ion-input>
             </ion-item>
           </div>
         </ion-col>
         <ion-row id="buttons" align-self-center size-xs="11">
-          <ion-button id="register" color="primary" expand="full" name="register">Register</ion-button>
+          <ion-button id="register" color="primary" expand="full" name="register" (click)="onRegister()">Register</ion-button>
           <ion-button id="cancel" color="white" expand="full" name="cancel" (click)="onCancel()">Cancel</ion-button>
         </ion-row>
       </ion-row>
